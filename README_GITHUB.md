@@ -18,7 +18,7 @@
 ## 📥 下载安装
 
 ### 方式一：直接下载（推荐）
-1. 访问 [Releases](https://github.com/YOUR_USERNAME/pdf2word-tool/releases) 页面
+1. 访问 [Releases](https://github.com/sophgotzf/pdf2word-tool/releases) 页面
 2. 下载最新版本的 `pdf2word.exe`
 3. 双击运行即可使用
 
@@ -27,7 +27,7 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/YOUR_USERNAME/pdf2word-tool.git
+git clone https://github.com/sophgotzf/pdf2word-tool.git
 cd pdf2word-tool
 
 # 2. 安装依赖
