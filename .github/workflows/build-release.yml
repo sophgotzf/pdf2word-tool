@@ -36,8 +36,12 @@ jobs:
     
     - name: Verify build
       run: |
-        ls -la dist/
-        dir dist
+        dir dist\
+        if not exist dist\pdf2word.exe (
+          echo ERROR: pdf2word.exe not found!
+          exit /b 1
+        )
+        echo Build successful!
     
     - name: Create Release
       id: create_release
